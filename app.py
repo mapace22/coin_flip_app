@@ -1,5 +1,8 @@
 import streamlit as st
+import random
 
-st.header('Lanzar una moneda')
+st.title("Lanzar una moneda")
 
-st.write('Esta aplicación aún no es funcional. En construcción.')
+if st.button("Lanzar la moneda"):
+    resultado = random.choice(["Cara", "Cruz"])
+    st.write(f"¡La moneda cayó en: **{resultado}**!")
