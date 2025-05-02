@@ -1,8 +1,8 @@
 import streamlit as st
-import random
 
-st.title("Lanzar una moneda")
+st.header('Prueba')
+number_of_trials = st.slider('¿Número de intentos?', 1, 1000, 10)
+start_button = st.button('Ejecutar')
 
-if st.button("Lanzar la moneda"):
-    resultado = random.choice(["Cara", "Cruz"])
-    st.write(f"¡La moneda cayó en: **{resultado}**!")
+if start_button:
+    st.write(f'Seleccionaste {number_of_trials} intentos.')
