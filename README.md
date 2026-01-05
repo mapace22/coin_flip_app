@@ -4,7 +4,7 @@
 An interactive web application built with **Streamlit** to demonstrate the **Law of Large Numbers** through Bernoulli trials (coin flips). This tool visualizes how empirical probability converges toward theoretical probability as the sample size increases.
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.x
+* **Language:** Python 3.11.9
 * **Core Libraries:** Streamlit (UI/UX), SciPy (Statistical distributions), Pandas (Data logging), NumPy.
 * **Deployment Readiness:** Includes `requirements.txt` for cloud hosting (e.g., Streamlit Community Cloud).
 
